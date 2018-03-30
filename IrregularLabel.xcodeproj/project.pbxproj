@@ -13,6 +13,7 @@
 		D9783F6B206E1AA9002ACEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9783F6A206E1AA9002ACEBF /* Assets.xcassets */; };
 		D9783F6E206E1AA9002ACEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9783F6C206E1AA9002ACEBF /* LaunchScreen.storyboard */; };
 		D9783F71206E1AA9002ACEBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9783F70206E1AA9002ACEBF /* main.m */; };
+		D9783F7A206E1F41002ACEBF /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9783F79206E1F41002ACEBF /* IrregularLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D9783F6D206E1AA9002ACEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9783F6F206E1AA9002ACEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9783F70206E1AA9002ACEBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9783F78206E1F41002ACEBF /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
+		D9783F79206E1F41002ACEBF /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		D9783F60206E1AA9002ACEBF /* IrregularLabel */ = {
 			isa = PBXGroup;
 			children = (
+				D9783F77206E1F0C002ACEBF /* IrregularLabel */,
 				D9783F61206E1AA9002ACEBF /* AppDelegate.h */,
 				D9783F62206E1AA9002ACEBF /* AppDelegate.m */,
 				D9783F64206E1AA9002ACEBF /* ViewController.h */,
@@ -67,6 +71,15 @@
 				D9783F6C206E1AA9002ACEBF /* LaunchScreen.storyboard */,
 				D9783F6F206E1AA9002ACEBF /* Info.plist */,
 				D9783F70206E1AA9002ACEBF /* main.m */,
+			);
+			path = IrregularLabel;
+			sourceTree = "<group>";
+		};
+		D9783F77206E1F0C002ACEBF /* IrregularLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D9783F78206E1F41002ACEBF /* IrregularLabel.h */,
+				D9783F79206E1F41002ACEBF /* IrregularLabel.m */,
 			);
 			path = IrregularLabel;
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9783F7A206E1F41002ACEBF /* IrregularLabel.m in Sources */,
 				D9783F66206E1AA9002ACEBF /* ViewController.m in Sources */,
 				D9783F71206E1AA9002ACEBF /* main.m in Sources */,
 				D9783F63206E1AA9002ACEBF /* AppDelegate.m in Sources */,
