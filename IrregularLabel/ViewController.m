@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.label = [[IrregularLabel alloc] initWithFrame:CGRectMake(90, 200, 200, 40)];
+    self.label = [[IrregularLabel alloc] initWithFrame:CGRectMake(90, 90, 200, 40)];
     [self.view addSubview:self.label];
     self.label.text = @"这是一个不规则label";
     self.label.textAlignment = NSTextAlignmentCenter;
@@ -31,7 +31,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    self.label.frame = CGRectMake(100, 90, 200, 70);
+    self.label.frame = CGRectMake(100, 150, 222, 70);
 }
 
 @end
