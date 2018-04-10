@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "IrregularLabel.h"
+#import "ArrowLabel.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,14 @@
     self.label.backgroundColor = [UIColor redColor];
     self.label.textColor = [UIColor whiteColor];
     self.label.font = [UIFont boldSystemFontOfSize:16];
+    
+    // 箭头label
+    ArrowLabel *arrowLabel = [[ArrowLabel alloc] initWithFrame:CGRectMake(150, 200, 80, 80)];
+    [self.view addSubview:arrowLabel];
+    arrowLabel.textAlignment = NSTextAlignmentCenter;
+    arrowLabel.font = [UIFont systemFontOfSize:14];
+    arrowLabel.text = @"箭头label";
+    arrowLabel.backgroundColor = [UIColor orangeColor];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

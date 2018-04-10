@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95F5EA1207C9F4900D84790 /* ArrowLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F5EA0207C9F4900D84790 /* ArrowLabel.m */; };
 		D9783F63206E1AA9002ACEBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9783F62206E1AA9002ACEBF /* AppDelegate.m */; };
 		D9783F66206E1AA9002ACEBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9783F65206E1AA9002ACEBF /* ViewController.m */; };
 		D9783F69206E1AA9002ACEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9783F67206E1AA9002ACEBF /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D95F5E9F207C9F4900D84790 /* ArrowLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowLabel.h; sourceTree = "<group>"; };
+		D95F5EA0207C9F4900D84790 /* ArrowLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrowLabel.m; sourceTree = "<group>"; };
 		D9783F5E206E1AA9002ACEBF /* IrregularLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrregularLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9783F61206E1AA9002ACEBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9783F62206E1AA9002ACEBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D95F5E9E207C9F2500D84790 /* ArrowLabel */ = {
+			isa = PBXGroup;
+			children = (
+				D95F5E9F207C9F4900D84790 /* ArrowLabel.h */,
+				D95F5EA0207C9F4900D84790 /* ArrowLabel.m */,
+			);
+			path = ArrowLabel;
+			sourceTree = "<group>";
+		};
 		D9783F55206E1AA9002ACEBF = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		D9783F60206E1AA9002ACEBF /* IrregularLabel */ = {
 			isa = PBXGroup;
 			children = (
+				D95F5E9E207C9F2500D84790 /* ArrowLabel */,
 				D9783F77206E1F0C002ACEBF /* IrregularLabel */,
 				D9783F61206E1AA9002ACEBF /* AppDelegate.h */,
 				D9783F62206E1AA9002ACEBF /* AppDelegate.m */,
@@ -159,6 +172,7 @@
 				D9783F66206E1AA9002ACEBF /* ViewController.m in Sources */,
 				D9783F71206E1AA9002ACEBF /* main.m in Sources */,
 				D9783F63206E1AA9002ACEBF /* AppDelegate.m in Sources */,
+				D95F5EA1207C9F4900D84790 /* ArrowLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
